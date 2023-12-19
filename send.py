@@ -16,7 +16,7 @@ client = Client(account_sid, auth_token)
 
 def _email(email_send,subject,body,att=False):
     password = os.getenv('EMAIL_PASS')
-    email_user = "demonthefake@gmail.com"
+    email_user = "amogh.out@gmail.com"
     email_password = password
     msg = MIMEMultipart()
     msg["From"] = email_user
