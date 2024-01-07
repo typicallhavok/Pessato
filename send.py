@@ -16,6 +16,7 @@ client = Client(account_sid, auth_token)
 
 def _email(email_send,subject,body,att=False):
     password = os.getenv('EMAIL_PASS')
+    print(password)
     email_user = "amogh.out@gmail.com"
     email_password = password
     msg = MIMEMultipart()
@@ -31,10 +32,12 @@ def _email(email_send,subject,body,att=False):
         msg.attach(part)
     text = msg.as_string()
     server = smtplib.SMTP("smtp.gmail.com", 587)
+    server.ehlo()
     server.starttls()
     server.login(email_user, email_password)
     server.sendmail(email_user, email_send, text)
     server.quit()
+
 
 def _msg(ph,otp):
     b=f'Your zomapes otp for login is {otp}'
