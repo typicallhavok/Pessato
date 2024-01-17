@@ -15,8 +15,8 @@ Session(app)
 sqlc = sql.connect(
     host = 'localhost',
     user = 'root',
-    password = 'Amogh2004',
-    database = 'zomapes'
+    password = '<password>',
+    database = '<database>'
 )
 cur=sqlc.cursor(buffered=True)
 
