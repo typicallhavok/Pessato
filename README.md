@@ -33,5 +33,5 @@ To deploy this project run
 
 ## Demo
 
-![](https://github.com/typicallhavok/Pessato/blob/main/pessato%20Demo.gif)
+![](https://github.com/typicallhavok/Pessato/blob/main/pessato-demo.gif)
 
