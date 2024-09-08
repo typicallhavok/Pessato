@@ -32,6 +32,6 @@ To deploy this project run
 
 
 ## Demo
-
+For complete demo: https://drive.google.com/file/d/1d3FYTJxNS4p7Kxbzx9AHIlG7hC2yYv6Q/view?usp=sharing
 ![](https://github.com/typicallhavok/Pessato/blob/main/pessato-demo.gif)
 
